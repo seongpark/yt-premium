@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular' !important;
+}
+
+.title {
+    background: linear-gradient(to right top, #FE2E2E, #DF0174);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Pretendard-ExtraBold' !important;
+}
+
+h1 {
+    line-height: 55px !important;
+    font-family: 'Pretendard-ExtraBold' !important;
+}
+
+
+h3 {
+    font-family: 'Pretendard-ExtraBold' !important;
+}
+
+.back_shadow {
+    text-shadow: 0px 0px 60px rgb(0, 0, 0, 0.5);
+}
+
+.btn {
+    border-radius: 20px !important;
+}
